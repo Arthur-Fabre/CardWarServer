@@ -1,0 +1,34 @@
+﻿La génération a démarré 08/02/2015 15:55:33.
+     1>Projet "D:\Data C\Bureau\CardWar\Projet total\ServeurCardWar\ServeurCardWar.vcxproj" sur le nœud 2 (build cible(s)).
+     1>InitializeBuildStatus:
+         Mise à jour de l'horodatage "Release\ServeurCardWar.unsuccessfulbuild".
+       ClCompile:
+         Toutes les sorties sont à jour.
+       Link:
+         d:\Data C\Bureau\Programmes\vbasic\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Data C\Bureau\CardWar\Projet total\ServeurCardWar\Release\ServeurCardWar.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\ServeurCardWar.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Data C\Bureau\CardWar\Projet total\ServeurCardWar\Release\ServeurCardWar.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Data C\Bureau\CardWar\Projet total\ServeurCardWar\Release\ServeurCardWar.lib" /MACHINE:X86 Release\Affichage.obj
+         Release\Cartes.obj
+         Release\Corp.obj
+     1>Affichage.obj : error LNK2001: symbole externe non résolu _SDL_Init
+     1>Affichage.obj : error LNK2001: symbole externe non résolu _SDL_SetVideoMode
+     1>Affichage.obj : error LNK2001: symbole externe non résolu _SDL_RWFromFile
+     1>Affichage.obj : error LNK2001: symbole externe non résolu _SDL_WM_SetCaption
+     1>Affichage.obj : error LNK2001: symbole externe non résolu _SDL_LoadBMP_RW
+     1>Affichage.obj : error LNK2001: symbole externe non résolu _SDL_SetAlpha
+     1>Affichage.obj : error LNK2001: symbole externe non résolu _SDL_UpperBlit
+     1>Affichage.obj : error LNK2001: symbole externe non résolu _SDL_SetColorKey
+     1>Affichage.obj : error LNK2001: symbole externe non résolu _SDL_MapRGB
+     1>Affichage.obj : error LNK2001: symbole externe non résolu _SDL_Flip
+     1>Affichage.obj : error LNK2001: symbole externe non résolu _SDL_Quit
+     1>Affichage.obj : error LNK2001: symbole externe non résolu _SDL_FreeSurface
+     1>Corp.obj : error LNK2001: symbole externe non résolu _SDL_PollEvent
+     1>Corp.obj : error LNK2001: symbole externe non résolu _TTF_RenderText_Blended
+     1>Corp.obj : error LNK2001: symbole externe non résolu _TTF_OpenFont
+     1>Corp.obj : error LNK2001: symbole externe non résolu _TTF_Init
+     1>Corp.obj : error LNK2001: symbole externe non résolu _TTF_Quit
+     1>MSVCRT.lib(crtexe.obj) : error LNK2001: symbole externe non résolu _main
+     1>D:\Data C\Bureau\CardWar\Projet total\ServeurCardWar\Release\ServeurCardWar.exe : fatal error LNK1120: 18 externes non résolus
+     1>Génération du projet "D:\Data C\Bureau\CardWar\Projet total\ServeurCardWar\ServeurCardWar.vcxproj" terminée (build cible(s)) -- ÉCHEC.
+
+ÉCHEC de la build.
+
+Temps écoulé 00:00:00.05
